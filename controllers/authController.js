@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const { match } = require("assert");
 
 const test = (req, res) => {
-  res.json("Hello from test");
+  res.json("Server is running");
 };
 
 const registerUser = async (req, res) => {
